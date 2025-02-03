@@ -163,3 +163,9 @@ library(gtsummary)
 tbl_regression(modelo, exponentiate = TRUE)
 
 ```
+El modelo de regresión logística muestra una precisión global del 76.92%, pero con una baja sensibilidad del 33.33%, lo que indica que tiene dificultades para identificar correctamente los casos de metástasis. Sin embargo, su especificidad es alta (93.61%), lo que significa que predice con mayor precisión los casos sin metástasis.
+
+En cuanto a los Odds Ratios (OR), ninguna de las variables predictoras alcanza significancia estadística (p > 0.05). Aunque algunas variables como el sexo (OR = 2.37, p = 0.2) y el tipo de tumor (CM vs. CCR, OR = 2.82, p = 0.2) sugieren una posible relación con la presencia de metástasis, los intervalos de confianza son amplios, lo que indica una gran incertidumbre en las estimaciones.
+
+Conclusión:
+El modelo no es lo suficientemente fiable para predecir la presencia de metástasis, ya que no identifica correctamente la mayoría de los casos positivos. 
